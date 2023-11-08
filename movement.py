@@ -24,7 +24,7 @@ while run:
     elif key[pygame.K_d]==True:
         player.move_ip(1,0)
     
-    
+##ddwadawdw
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run=False
