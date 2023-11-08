@@ -6,8 +6,8 @@ class Game:
     def __init__(self):
 
         pygame.init()
-        self.screen = pygame.display.set_mode((width, height))
-        pygame.display.set_caption('IDK')
+        self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
+        pygame.display.set_caption('LOL')
         self.clock = pygame.time.Clock()
 
     def run(self):
